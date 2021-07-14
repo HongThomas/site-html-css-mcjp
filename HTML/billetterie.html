@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Billeterie</title>
+  <link rel="stylesheet" href="../STYLES_CSS/billeterie.css">
+  <link rel="stylesheet" href="../STYLES_CSS/header.css">
+  <link rel="stylesheet" href="../STYLES_CSS/footer.css">
+  <link rel="stylesheet" href="../STYLES_CSS/menu.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="../Images/japactu-logo.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <a href="accueil.html" class='noHover'>
+        <header>
+        </header>
+        </a>    
+    
+        <div class="menu-bar">
+            <div id=principal_bar>
+            <ul>
+                <a href='accueil.html'>     <li class="bar_elements">ACCUEIL</li>       </a>
+                <a href="actu.html">        <li class="bar_elements">ACTUALITES</li>    </a>
+                <a href="Évenements.html">  <li class="bar_elements">EVENEMENTS</li>    </a>
+                <a href="billetterie.html">  <li class="bar_elements">BILLETTERIE</li>    </a>
+                <a href="forum.html">       <li class="bar_elements">FORUM</li>         </a>
+           
+            </ul>
+    
+                <a href='' class ='cart'>
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </a>
+    
+                <a href='compte.html' class ='connexion'>
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                </a>
+                
+                <div class="search-box">
+                    <input class="search-txt" type="text" name="" placeholder=" Recherche..">
+                    <a class="search-btn" href="#"><i class="fa fa-search " aria-hidden="true"></i></a>
+                </div>
+    
+            </div>
+        </div>
+
+
+<div id=fond_blanc>
+<h1>Billetterie</h1>
+
+<h3 class="sub">Liste des réservations disponibles :</h3>
+<div id="ligne1" class="ligne">
+	<img id="image1"class="booking" src="../Images/japanexpo_2021_.jpg">
+	<div class="right_container"><p class="desc">Japan Expo est LE rendez-vous des amoureux du Japon et de sa culture, du manga aux arts martiaux, du jeu vidéo au folklore nippon, de la J-music à la musique traditionnelle : un évènement incontournable pour tous ceux qui s’intéressent à la culture japonaise et une infinité de découvertes pour les curieux. Le tout à 30 minutes de Paris !</p>
+	<form action="/action_page.php">
+  		<label for="ticket">Nombre de places</label>
+  		<select name="tickets" id="tickets">
+    		<option value="1">1</option>
+    		<option value="2">2</option>
+    		<option value="3">3</option>
+    		<option value="4">4</option>
+  </select>
+  <button type='button' id='bouton'>
+    <a href='' id="bouton-hover">
+        confirmer
+    </a>
+</button>
+</form>
+</div>
+</div>
+
+<div id="ligne2" class="ligne">
+	<img id="image2" class="booking" src="../Images/kakemono.PNG">
+	<div class="right_container"><p class="desc">L'association Kakemono vous invite au Zénith de Strasbourg pour une septième édition bis de la Japan Addict Z qui se voit complétée par Universal Geek</p>
+    <form action="/action_page.php">
+  		<label for="ticket">Nombre de places</label>
+  		<select name="tickets" id="tickets">
+    		<option value="1">1</option>
+    		<option value="2">2</option>
+    		<option value="3">3</option>
+    		<option value="4">4</option>
+  </select>
+  <button type='button' id='bouton'>
+    <a href='' id="bouton-hover">
+        confirmer
+    </a>
+</button>
+</form>
+</div>
+</div>
+
+
+</div>
+
+<footer>
+    <div id="footer">
+        <div id="footer_elements">
+          <a href="mailto: contact@mcjp.fr" class ='infos'><p>contact@mcjp.fr</p><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+          <a href="tel:01 44 37 95 01"class ='infos'><p class="droite">01 44 37 95 01<i class="fa fa-phone-square" aria-hidden="true"></i></p></a>
+          <a href="https://www.google.com/maps/place/101+Quai+Branly,+75015+Paris/@48.8556935,2.2881095,17z/data=!3m1!4b1!4m5!3m4!1s0x47e6701cdff9d9ad:0xb98d39ca1ebf8710!8m2!3d48.85569!4d2.2902982" target="_blank" class ='infos' ><p class="droite">Où nous trouver : </p><i class="fa fa-map-o" aria-hidden="true"></i></a>
+        </div>
+        <div class='social'>
+            <a href='https://twitter.com/mcjp_officiel' target='_blank' class='icon'><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href='https://www.facebook.com/MCJP.officiel' target='_blank' class='icon'> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href='https://instagram.com/mcjp_officiel/' target='_blank' class='icon'><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href='https://www.youtube.com/channel/UC6tThdaeY951YFJC_UDwRRQ/videos' target='_blank' class='icon'><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+</body>
+</html>

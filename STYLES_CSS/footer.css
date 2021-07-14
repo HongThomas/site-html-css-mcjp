@@ -1,0 +1,63 @@
+
+#footer
+{
+	background-color: #303132;
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	flex-grow: 1;
+}
+
+#footer a
+{
+	display:inline-flex;
+	text-decoration: none;
+	color: white;
+}
+#footer p
+{
+	text-decoration: none;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+#footer i
+{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 5px;
+	margin-left: 4px;
+}
+#footer_elements
+{
+	display:flex;
+	flex-grow: 1;
+}
+.droite
+{
+	border-left: solid white;
+	border-left-width: 0.5px;
+	padding-left: 5px;
+}
+
+.social{
+	padding-right: 8px;;
+	font-size:24px;
+}
+
+.icon{
+	padding:8px;
+
+}
+
+*
+{
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+.infos{
+	display:flex;
+	padding-left: 20px;
+
+}

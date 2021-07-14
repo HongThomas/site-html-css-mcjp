@@ -1,0 +1,108 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body
+{
+	background-image: url(../Images/sayagata-400px.png);
+	background-position: cover;
+	background-position: center;
+	
+
+}
+
+.menu-bar
+{
+	display:flex;
+	height: 65px;
+}
+#principal_bar{
+	flex: 1;
+	background-color: #303132;
+}
+#principal_bar ul{
+	display:inline;
+}
+
+#principal_bar ul li{
+	list-style:none;
+	display: inline-block;
+	padding:8px 25px;
+}
+
+#principal_bar ul a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-family: "Source Sans Pro",sans-serif;
+}
+.menu-bar #principal_bar li::after{
+	content:'';
+	width: 0;
+	height:2px;
+	background: red;
+	display: block;
+	margin: auto;
+	transition: .5s;
+}
+.menu-bar #principal_bar li:hover::after{
+	width:100%;
+}
+
+
+#principal_bar .connexion{
+	float:right;
+}
+
+.cart{
+	padding-top:10px;
+	padding-right:30px;
+	font-size:30px;
+	color: white;
+}
+#principal_bar .cart{
+	float:right;
+}
+.search-box
+{ 
+	float:right;
+	padding:20px;
+}
+.search-txt
+{
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	width: 180px;
+	height: 26px;
+}
+a i
+{
+	text-decoration: none;
+	color: white;
+}
+.fa-search
+{
+	margin-right: 10px;
+}
+main{
+	position:relative;
+}
+.noHover{
+    text-decoration: none;
+    pointer-events: inherit;
+	color:inherit;}
+	
+#logo-acceuil
+{
+    height: 4.6875rem;
+    width: 4.8125rem;
+    float: left;
+    margin-top: 0.3125rem;
+}
+
+
